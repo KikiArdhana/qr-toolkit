@@ -16,7 +16,7 @@ export function ContactForm({ data, errors, onChange }: ContactFormProps) {
         <Input
           id="contact-name"
           type="text"
-          placeholder="Jordan Rivera"
+          placeholder="Kiki Ardhana"
           value={data.fullName}
           invalid={Boolean(errors.fullName)}
           onChange={(e) => onChange({ fullName: e.target.value })}
